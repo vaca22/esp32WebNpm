@@ -16,25 +16,25 @@ section.main {
 }
 
 
-
-.n1{
+.n1 {
     height: 25px;
 }
-.n5{
+
+.n5 {
     height: 100px;
 }
 
-.n6{
+.n6 {
     padding-top: 100px;
     margin-top: 200px;
 }
 
-.n2{
+.n2 {
     height: 25px;
     width: 100%;
 }
 
-.save{
+.save {
     margin-top: 50px;
     margin-right: 50px;
     height: 60px;
@@ -43,12 +43,20 @@ section.main {
 }
 
 
-td{width: 130px;padding:5px;horiz-align: left}
-.spacer  {
+td {
+    width: 130px;
+    padding: 5px;
+    horiz-align: left
+}
+
+.spacer {
     height: 20px;
 
 }
-tr{text-align:right}
+
+tr {
+    text-align: right
+}
 
 
 
