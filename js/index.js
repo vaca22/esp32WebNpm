@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
     var streamUrl = baseHost + ':81'
 
 
-    const framesize = document.getElementById('framesize')
+    const framesize = document.getElementById('bau')
 
     framesize.onchange = () => {
 
