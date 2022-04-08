@@ -13,46 +13,46 @@
         <table>
             <tr>
                 <td>WiFi名称</td>
-                <td><input type='text' class="n1" name='ap_ssid' value=''/></td>
+                <td><input type='text' class="n1" name='ap_ssid' value='' id="wifi_name"/></td>
             </tr>
             <tr>
                 <td>WiFi密码</td>
-                <td><input type='text' class="n1" name='ap_password' value=''/></td>
+                <td><input type='text' class="n1" name='ap_password' value='' id="wifi_password"/></td>
             </tr>
 
             <tr class="n5">
                 <td>蓝牙名称</td>
-                <td><input type='text' class="n1" name='ap_password' value=''/></td>
+                <td><input type='text' class="n1" name='ap_password' value='' id="ble_name"/></td>
             </tr>
 
             <tr>
                 <td></td>
                 <td>
-                    <div style="float:left;"><input type="checkbox" id="n3" checked="checked"></div>
+                    <div style="float:left;"><input type="checkbox" id="n3" checked="checked" id="is_connect_router"></div>
                     <div style="float:left;">是否连接路由器</div>
                 </td>
             </tr>
             <tr>
                 <td>路由器名称</td>
-                <td><input type='text' class="n1" name='ap_password' value=''/></td>
+                <td><input type='text' class="n1" name='ap_password' value='' id="router_name"/></td>
             </tr>
             <tr>
                 <td>路由器密码</td>
-                <td><input type='text' class="n1" name='ap_password' value=''/></td>
+                <td><input type='text' class="n1" name='ap_password' value='' id="router_password"/></td>
             </tr>
             <tr>
                 <td>内网IP</td>
-                <td><input type='text' class="n1" name='ap_password' value=''/></td>
+                <td><input type='text' class="n1" name='ap_password' value='' id="inner_ip"/></td>
             </tr>
             <tr class="spacer"></tr>
             <tr>
                 <td>TCP Server 端口</td>
-                <td><input type='text' class="n1" name='ap_password' value=''/></td>
+                <td><input type='text' class="n1" name='ap_password' value='' id="tcp_port"/></td>
             </tr>
 
             <tr>
                 <td>UDP Server 端口</td>
-                <td><input type='text' class="n1" name='ap_password' value=''/></td>
+                <td><input type='text' class="n1" name='ap_password' value='' id="udp_port"/></td>
             </tr>
             <tr class="spacer"></tr>
             <tr>
@@ -72,7 +72,7 @@
                 <td></td>
 
                 <td>
-                    <div style="float:left;"><input type='submit' value='保存' id="save" class="save"/></div>
+                    <div style="float:left;"><button type="button" id="save" class="save">保存</button></div>
                 </td>
 
             </tr>
