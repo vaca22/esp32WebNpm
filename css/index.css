@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #181818;
-    color: #EFEFEF;
+    background: #ffffff;
+    color: #000000;
     font-size: 16px
 }
 
@@ -32,6 +32,16 @@ section.main {
     flex-grow: 1
 }
 
+.save{
+    margin-top: 50px;
+    margin-right: 50px;
+    height: 60px;
+    width: 120px;
+}
+
+/*table :empty{border:none; height:10px;}*/
+td{width: 130px;padding:10px;height: 30px}
+tr{text-align:right}
 
 
 
