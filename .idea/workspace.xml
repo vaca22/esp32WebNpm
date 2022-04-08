@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0442cd61-a1f8-4bff-a2be-e4870a91c25e" name="Changes" comment="hjkfgdfbgffg" />
+    <list default="true" id="0442cd61-a1f8-4bff-a2be-e4870a91c25e" name="Changes" comment="hjkfgdfbgffgdfh">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="16.14.2" />
-    <property name="javascript.nodejs.core.library.typings.version" value="" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.26" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -62,8 +65,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.index.js" />
       <item itemvalue="JavaScript Debug.index.js JavaScript" />
+      <item itemvalue="Node.js.index.js" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -74,7 +77,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649319541020</updated>
-      <workItem from="1649319542210" duration="3542000" />
+      <workItem from="1649319542210" duration="4186000" />
+      <workItem from="1649388696486" duration="352000" />
     </task>
     <task id="LOCAL-00001" summary="hjk">
       <created>1649321042452</created>
@@ -111,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649322626926</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="hjkfgdfbgffgdfh">
+      <created>1649323159575</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649323159575</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +144,7 @@
     <MESSAGE value="hjkfg" />
     <MESSAGE value="hjkfgdfbg" />
     <MESSAGE value="hjkfgdfbgffg" />
-    <option name="LAST_COMMIT_MESSAGE" value="hjkfgdfbgffg" />
+    <MESSAGE value="hjkfgdfbgffgdfh" />
+    <option name="LAST_COMMIT_MESSAGE" value="hjkfgdfbgffgdfh" />
   </component>
 </project>
