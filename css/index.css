@@ -15,22 +15,7 @@ section.main {
     display: flex
 }
 
-.input-group {
-    display: flex;
-    flex-wrap: nowrap;
-    line-height: 22px;
-    margin: 5px 0
-}
 
-.input-group > label {
-    display: inline-block;
-    padding-right: 100px;
-    min-width: 47%
-}
-
-.input-group input, .input-group select {
-    flex-grow: 1
-}
 
 .n1{
     height: 30px;
@@ -49,8 +34,8 @@ section.main {
     font-size: large;
 }
 
-/*table :empty{border:none; height:10px;}*/
-td{width: 130px;padding:10px;height: 30px}
+
+td{width: 130px;padding:10px;height: 30px;horiz-align: left}
 tr{text-align:right}
 
 
