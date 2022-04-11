@@ -9,6 +9,13 @@
 <body>
 <section class="main">
     <div id="content">
+        <script>
+            if (window.location.search.substr(1) != '') {
+                document.getElementById('content').display = 'none';
+                document.body.innerHTML = '<h1>ESP32 NAT Router Config</h1>设置成功， 请等待...';
+                setTimeout("location.href = '/'", 10000);
+            }
+        </script>
         <form action="" method="get">
             <table>
                 <tr>
@@ -28,7 +35,8 @@
                 <tr>
                     <td></td>
                     <td>
-                        <div style="float:left;"><input type="checkbox" id="n3" checked="checked" name="is_connect_router"
+                        <div style="float:left;"><input type="checkbox" id="n3" checked="checked"
+                                                        name="is_connect_router"
                                                         id="is_connect_router"></div>
                         <div style="float:left;">是否连接路由器</div>
                     </td>
