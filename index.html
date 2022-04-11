@@ -132,6 +132,20 @@
         </form>
     </div>
 </section>
+<script>
 
+    fetch(`${baseHost}/status`)
+        .then(function (response) {
+            return response.json()
+        })
+        .then(function (state) {
+            console.log("googo")
+            // document
+            //     .querySelectorAll('.default-action')
+            //     .forEach(el => {
+            //         updateValue(el, state[el.id], false)
+            //     })
+        })
+</script>
 </body>
 </html>
