@@ -51,9 +51,9 @@
 <section class="main">
     <div id="content">
         <script>
-            if (window.location.search.substr(1) != '') {
+            if (window.location.search.substr(1) !== '') {
                 document.getElementById('content').display = 'none';
-                document.body.innerHTML = '<h1>ESP32 NAT Router Config</h1>设置成功， 请等待...';
+                document.body.innerHTML = '<h1>ESP32串口透传配置</h1>设置成功， 请等待...';
                 setTimeout("location.href = '/'", 10000);
             }
         </script>
