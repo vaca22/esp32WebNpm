@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0442cd61-a1f8-4bff-a2be-e4870a91c25e" name="Changes" comment="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdg">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" />
-    </list>
+    <list default="true" id="0442cd61-a1f8-4bff-a2be-e4870a91c25e" name="Changes" comment="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdgcgb给" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -244,7 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649666500817</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdgcgb">
+      <created>1649666716471</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1649666716471</updated>
+    </task>
+    <task id="LOCAL-00024" summary="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdgcgb给">
+      <created>1649666806673</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1649666806673</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +292,8 @@
     <MESSAGE value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsffgvsrfgsdsffgdfdfggffdg" />
     <MESSAGE value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsffgvssdafasdrfsdfgsdsffgdfdfggffdg" />
     <MESSAGE value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdg" />
-    <option name="LAST_COMMIT_MESSAGE" value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdg" />
+    <MESSAGE value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdgcgb" />
+    <MESSAGE value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdgcgb给" />
+    <option name="LAST_COMMIT_MESSAGE" value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdgcgb给" />
   </component>
 </project>
