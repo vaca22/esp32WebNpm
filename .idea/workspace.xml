@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0442cd61-a1f8-4bff-a2be-e4870a91c25e" name="Changes" comment="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdgcgb给ivb" />
+    <list default="true" id="0442cd61-a1f8-4bff-a2be-e4870a91c25e" name="Changes" comment="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdgcgb给ivbf">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -267,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649671147864</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdgcgb给ivbf">
+      <created>1649671262680</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1649671262680</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +296,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="hjk" />
     <MESSAGE value="hjkfg" />
     <MESSAGE value="hjkfgdfbg" />
     <MESSAGE value="hjkfgdfbgffg" />
@@ -310,6 +320,7 @@
     <MESSAGE value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdgcgb给" />
     <MESSAGE value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdgcgb给i" />
     <MESSAGE value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdgcgb给ivb" />
-    <option name="LAST_COMMIT_MESSAGE" value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdgcgb给ivb" />
+    <MESSAGE value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdgcgb给ivbf" />
+    <option name="LAST_COMMIT_MESSAGE" value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdgcgb给ivbf" />
   </component>
 </project>

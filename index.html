@@ -133,13 +133,13 @@
     </div>
 </section>
 <script>
-
-    fetch(`${baseHost}/status`)
+    var baseHost = document.location.origin
+    fetch(`${baseHost}/status?fuck=555`)
         .then(function (response) {
             return response.json()
         })
         .then(function (state) {
-            console.log("googo")
+            console.log("googo"+state.fuck)
             // document
             //     .querySelectorAll('.default-action')
             //     .forEach(el => {

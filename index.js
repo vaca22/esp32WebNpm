@@ -55,8 +55,13 @@ app.post('/', async (req, res) => {
 });
 
 app.get('/status', (req, res) => {
-    console.log("fuck2")
-    res.end("ok")
+    console.log(req.query)
+    console.log(req.query['fuck'])
+
+    let g= new Object()
+    g.fuck=555;
+
+    res.end(JSON.stringify(g))
 });
 
 
