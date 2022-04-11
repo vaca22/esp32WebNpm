@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0442cd61-a1f8-4bff-a2be-e4870a91c25e" name="Changes" comment="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsffgvssdafasdrfsdfgsdsffgdfdfggffdg">
+    <list default="true" id="0442cd61-a1f8-4bff-a2be-e4870a91c25e" name="Changes" comment="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdg">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="x1" />
+        <entry key="$PROJECT_DIR$" value="x2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -235,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649656937232</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdg">
+      <created>1649666500817</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1649666500817</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +282,7 @@
     <MESSAGE value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsffgvsrfgsdsffgdfgffdg" />
     <MESSAGE value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsffgvsrfgsdsffgdfdfggffdg" />
     <MESSAGE value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsffgvssdafasdrfsdfgsdsffgdfdfggffdg" />
-    <option name="LAST_COMMIT_MESSAGE" value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsffgvssdafasdrfsdfgsdsffgdfdfggffdg" />
+    <MESSAGE value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdg" />
+    <option name="LAST_COMMIT_MESSAGE" value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdg" />
   </component>
 </project>

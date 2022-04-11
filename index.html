@@ -2,9 +2,50 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
     <title>ESP32 OV2460</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #ffffff;
+            color: #000000;
+            font-size: 16px
+        }
+        h2 {
+            font-size: 18px
+        }
+        section.main {
+            margin-top: 30px;
+            justify-content: center;
+            display: flex
+        }
+        .n1 {
+            height: 25px;
+        }
+
+        .n5 {
+            height: 100px;
+        }
+        .save {
+            margin-top: 50px;
+            margin-right: 50px;
+            height: 60px;
+            width: 120px;
+            font-size: large;
+        }
+        td {
+            width: 130px;
+            padding: 5px;
+            horiz-align: left
+        }
+        .spacer {
+            height: 20px;
+
+        }
+        tr {
+            text-align: right
+        }
+    </style>
 </head>
 <body>
 <section class="main">
@@ -20,54 +61,54 @@
             <table>
                 <tr>
                     <td>WiFi名称</td>
-                    <td><input type='text' class="n1" name='ap_ssid' value='' id="wifi_name"/></td>
+                    <td><input class="n1" id="wifi_name" name='ap_ssid' type='text' value=''/></td>
                 </tr>
                 <tr>
                     <td>WiFi密码</td>
-                    <td><input type='text' class="n1" name='ap_password' value='' id="wifi_password"/></td>
+                    <td><input class="n1" id="wifi_password" name='ap_password' type='text' value=''/></td>
                 </tr>
 
                 <tr class="n5">
                     <td>蓝牙名称</td>
-                    <td><input type='text' class="n1" name='ble_name' value='' id="ble_name"/></td>
+                    <td><input class="n1" id="ble_name" name='ble_name' type='text' value=''/></td>
                 </tr>
 
                 <tr>
                     <td></td>
                     <td>
-                        <div style="float:left;"><input type="checkbox" id="n3" checked="checked"
+                        <div style="float:left;"><input checked="checked" id="n3" id="is_connect_router"
                                                         name="is_connect_router"
-                                                        id="is_connect_router"></div>
+                                                        type="checkbox"></div>
                         <div style="float:left;">是否连接路由器</div>
                     </td>
                 </tr>
                 <tr>
                     <td>路由器名称</td>
-                    <td><input type='text' class="n1" name='router_name' value='' id="router_name"/></td>
+                    <td><input class="n1" id="router_name" name='router_name' type='text' value=''/></td>
                 </tr>
                 <tr>
                     <td>路由器密码</td>
-                    <td><input type='text' class="n1" name='router_password' value='' id="router_password"/></td>
+                    <td><input class="n1" id="router_password" name='router_password' type='text' value=''/></td>
                 </tr>
                 <tr>
                     <td>内网IP</td>
-                    <td><input type='text' class="n1" name='inner_ip' value='' id="inner_ip"/></td>
+                    <td><input class="n1" id="inner_ip" name='inner_ip' type='text' value=''/></td>
                 </tr>
                 <tr class="spacer"></tr>
                 <tr>
                     <td>TCP Server 端口</td>
-                    <td><input type='text' class="n1" name='tcp_port' value='' id="tcp_port"/></td>
+                    <td><input class="n1" id="tcp_port" name='tcp_port' type='text' value=''/></td>
                 </tr>
 
                 <tr>
                     <td>UDP Server 端口</td>
-                    <td><input type='text' class="n1" name='udp_port' value='' id="udp_port"/></td>
+                    <td><input class="n1" id="udp_port" name='udp_port' type='text' value=''/></td>
                 </tr>
                 <tr class="spacer"></tr>
                 <tr>
                     <td>串口波特率</td>
                     <td>
-                        <select id="bau" name="bau" class="n2" class="default-action">
+                        <select class="n2" class="default-action" id="bau" name="bau">
                             <option value="1">9600</option>
                             <option value="2">19200</option>
                             <option value="3">38400</option>
@@ -81,7 +122,7 @@
                     <td></td>
 
                     <td>
-                        <div style="float:left;"><input type="submit" id="save" class="save" value="保存"/></div>
+                        <div style="float:left;"><input class="save" id="save" type="submit" value="保存"/></div>
                     </td>
 
                 </tr>
