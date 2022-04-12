@@ -5,7 +5,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const _ = require('lodash');
-
+var fs = require('fs');
 const app = express();
 const http = require('http');
 const server = http.createServer(app);
@@ -26,28 +26,40 @@ app.get('/', (req, res) => {
 
 app.post('/update', async (req, res) => {
     try {
+        console.log("fuck2")
         if(!req.files) {
+            console.log("fuck")
             res.send({
                 status: false,
                 message: 'No file uploaded'
             });
         } else {
+            console.log("fuck3")
             //Use the name of the input field (i.e. "avatar") to retrieve the uploaded file
-            let avatar = req.files.avatar;
-
-            //Use the mv() method to place the file in upload directory (i.e. "uploads")
-            avatar.mv('./uploads/' + avatar.name);
-
-            //send response
-            res.send({
-                status: true,
-                message: 'File is uploaded',
-                data: {
-                    name: avatar.name,
-                    mimetype: avatar.mimetype,
-                    size: avatar.size
+            let content = req.files;
+            //
+            // //Use the mv() method to place the file in upload directory (i.e. "uploads")
+            console.log(content.update.md5)
+            console.log(content.update)
+            fs.writeFile(__dirname+"/test.txt", content.update.data,  "binary",function(err) {
+                if(err) {
+                    console.log(err);
+                } else {
+                    console.log("The file was saved!");
                 }
             });
+
+            //send response
+            res.end()
+            // res.send({
+            //     status: true,
+            //     message: 'File is uploaded',
+            //     data: {
+            //         name: avatar.name,
+            //         mimetype: avatar.mimetype,
+            //         size: avatar.size
+            //     }
+            // });
         }
     } catch (err) {
         res.status(500).send(err);
