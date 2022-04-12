@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0442cd61-a1f8-4bff-a2be-e4870a91c25e" name="Changes" comment="ss">
+    <list default="true" id="0442cd61-a1f8-4bff-a2be-e4870a91c25e" name="Changes" comment="ssdf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,7 @@
       <workItem from="1649319542210" duration="4186000" />
       <workItem from="1649388696486" duration="1623000" />
       <workItem from="1649406708629" duration="5201000" />
-      <workItem from="1649746656985" duration="628000" />
+      <workItem from="1649746656985" duration="1588000" />
     </task>
     <task id="LOCAL-00001" summary="hjk">
       <created>1649321042452</created>
@@ -257,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649666806673</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="ssdf">
+      <created>1649747432850</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1649747432850</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +304,7 @@
     <MESSAGE value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdg" />
     <MESSAGE value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdgcgb" />
     <MESSAGE value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdgcgb给" />
-    <option name="LAST_COMMIT_MESSAGE" value="hjkfgdfbgffgdfhfdgsdffgcfdgdfgdfggddsfvvcbcvgvssdafasddfgrfsdfgsdsffgdfdfggffdgcgb给" />
+    <MESSAGE value="ssdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssdf" />
   </component>
 </project>
