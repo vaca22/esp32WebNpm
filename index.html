@@ -45,6 +45,9 @@
         tr {
             text-align: right
         }
+        .n9{
+            margin-top: 100px;
+        }
     </style>
 </head>
 <body>
@@ -129,6 +132,13 @@
 
 
             </table>
+        </form>
+
+        <form action="/update" method="post" enctype="multipart/form-data" class="n9">
+            <div class="n9">
+                <tr><input type="file" value="选择文件" name="avatar" multiple="multiple"  /></tr>
+                <tr> <input type="submit" value="升级" /></tr>
+            </div>
         </form>
     </div>
 </section>

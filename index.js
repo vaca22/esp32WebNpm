@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
     res.end()
 });
 
-app.post('/', async (req, res) => {
+app.post('/update', async (req, res) => {
     try {
         if(!req.files) {
             res.send({
